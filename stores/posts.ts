@@ -27,7 +27,7 @@ export const useMyPostStore = defineStore('posts', () => {
 
   async function authAuthor(tag: string, email: string) {
     try {
-      const response = await $fetch<Author>(config.public.api_url + '/auth/@',
+      const response = await $fetch<Author>(config.public.api_url + '/auth/',
         {
           method: "POST",
           body: {
