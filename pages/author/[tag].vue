@@ -19,8 +19,8 @@
       <div class="flex flex-col items-center mt-20" v-if="error">
         <div class="card bg-base-100 w-5/6 md:w-96 shadow-xl mt-5">
           <div class="card-body">
-            <h2 class="card-title">Sem postagens para esse author</h2>
-            <p class="w-100 break-words">Talvez esse author não exista ou não postou nada</p>
+            <h2 class="card-title">No posts for this author</h2>
+            <p class="w-100 break-words">Maybe this author doesn't exist or hasn't posted anything</p>
           </div>
         </div>
       </div>
